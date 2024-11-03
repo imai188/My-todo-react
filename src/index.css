@@ -1,0 +1,74 @@
+body {
+  font-family: sans-serif;
+  color: #485b9b;
+}
+
+input {
+  border-radius: 4px;
+  border: none;
+  padding:8px 16px;
+}
+
+button {  
+  border-radius: 4px;
+  border: none;
+  padding: 4px 16px;
+  margin: 0px 2px;
+  color: #485b9b;
+}
+
+button:hover {
+  background-color: #263c5a;
+  color: azure;
+  cursor: pointer;
+}
+
+.incomplete-area {
+  width: 400px;
+  min-height: 200px;
+  padding: 8px 8px 5px;
+  margin: 8px;
+  border-radius: 8px;
+  background: linear-gradient(
+    to bottom right,
+    rgba(253, 255, 193, 0.664), 
+    rgba(186, 208, 231, 0.7),  
+    rgba(229, 232, 239, 0.983) 
+  );
+}
+
+.complete-area {
+  width: 400px;
+  min-height: 200px;
+  padding: 8px 8px 5px;
+  margin: 8px;
+  border-radius: 8px; 
+  background: linear-gradient(
+    to bottom right,
+    rgba(186, 208, 231, 0.7), 
+    rgba(222, 223, 228, 0.7),  
+    rgba(224, 233, 254, 0.983),
+    rgba(29, 119, 215, 0.7)
+  );
+}
+
+.incomplete-area, .complete-area {
+  box-shadow: 0 0 20px rgba(201, 211, 230, 0.045), 
+              0 0 30px rgba(146, 156, 230, 0.3),
+              0 0 400px rgba(71, 114, 214, 0.2);
+}
+
+.title {
+  text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.list-row {
+  display: flex;
+  align-items: center;  
+}
+
+.todo-item {
+  margin: 6px;
+}
