@@ -1,17 +1,17 @@
 # My Todo App
 
-## Overview
+# 概要
 
-This is a simple To-do List application built with React. It allows users to create, view, complete, and delete tasks.
+React で作成した Todo アプリケーションです
+ユーザーがタスクを作成・削除・完了・取り戻すことができます
 
-## Features
+# 機能
 
-- **Add Tasks**: Users can add new tasks to the list.
-- **Complete Tasks**: Users can mark tasks as completed.
-- **Delete Tasks**: Users can remove tasks from the list.
-- **Clear Completed**: Users can clear completed tasks from the list.
+- タスク追加: 新しいタスクを追加できます
+- タスク削除: タスクを削除できます
+- タスク完了: タスクを完了済みにできます
+- タスク取り戻す: タスクを完了済みからリストに戻すことができます
 
-## Technologies Used
+# 使用技術
 
-- **React**: A JavaScript library for building user interfaces.
-- **CSS**: For styling the application.
+- React, CSS
